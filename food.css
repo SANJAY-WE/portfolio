@@ -1,0 +1,33 @@
+
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin: -100px 0 -500px 0;
+    background-color: darkgreen;
+}
+
+.logo{
+    margin-bottom: 30px;
+}
+
+.listItems{
+    list-style: none;
+    display: inline;
+    margin: 0px 0px -500px 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.links:hover{
+    text-decoration: underline;
+    color: brown;
+}
